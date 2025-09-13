@@ -34,5 +34,4 @@ if [[ "${DEP_MISSING:-0}" == "1" ]]; then
 fi
 
 echo "[run] Starting BLE multimeter (Ctrl+C to stop)"
-exec python "$ROOT_DIR/picoscope/ble_multimeter.py" "$@"
-
+exec python "$ROOT_DIR/AN9002_pyton/ble_multimeter.py" "$@"
