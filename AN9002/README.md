@@ -1,3 +1,5 @@
+This is a fortk form https://github.com/riktw/AN9002_info.
+
 # AN9002 Bluetooth Multimeter Parser + Live Plot
 
 This project reads measurements from an AN9002‑protocol Bluetooth multimeter, decodes the 7‑segment payload into numeric values/units, and shows a live plot using Matplotlib. A ready‑to‑run shell script bootstraps a Python 3.11 virtual environment and installs required packages.
